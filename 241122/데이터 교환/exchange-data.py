@@ -1,12 +1,7 @@
 a, b, c = 5, 6, 7
 
-b = a
-print(b)
+a, b, c = c, a, b
 
-b = 6
-c = b 
-print(c)
-
-c = 7
-a = c
 print(a)
+print(b)
+print(c)
