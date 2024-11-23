@@ -7,4 +7,7 @@ arr2 = input().split()
 c = int(arr2[0])
 d = int(arr2[1])
 
-print(int(a>c and b>d))
+if a>c and b>d:
+    print(1)
+else:
+    print(0)
