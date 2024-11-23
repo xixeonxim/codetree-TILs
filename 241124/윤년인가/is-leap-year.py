@@ -1,6 +1,8 @@
+# 변수 선언, 입력
 y = int(input())
 
-if y % 4 == 0 or ((y % 100 == 0) and (y % 400 != 0)):
-    print("true")
+# 출력
+if (y % 4 == 0 and y % 100 != 0) or y % 400 == 0:
+	print("true")
 else:
-    print("false")
+	print("false") 
