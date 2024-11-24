@@ -1,10 +1,10 @@
 arr = input().split()
 
-a = int(arr[0])
-b = int(arr[1])
+b = int(arr[0])
+a = int(arr[1])
 
-i = a
+i = b
 
-while i >= b:
+while i >= a:
     print(i , end = " ")
     i -= 2
