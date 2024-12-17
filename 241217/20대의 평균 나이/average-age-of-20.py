@@ -11,5 +11,6 @@ while True:
     else:
         break
 
-avg = sum_val / cnt
-print(f"{avg:.2f}")
+if cnt > 0:
+    avg = sum_val / cnt
+    print(f"{avg:.2f}")
