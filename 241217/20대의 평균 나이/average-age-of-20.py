@@ -1,5 +1,6 @@
 cnt = 0
-sum_val = 0 
+sum_val = 0
+avg = 0  
 
 while True:
     n = int(input())
