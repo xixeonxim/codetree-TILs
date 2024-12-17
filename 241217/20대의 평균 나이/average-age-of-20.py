@@ -1,17 +1,15 @@
-cnt = 0
-sum_val = 0
-avg = 0  
+# 나이 입력 받기
+ages = []
 
 while True:
-    n = int(input())
-
-    if n < 30:
-        sum_val += n
-        cnt += 1
-    
+    age = int(input())
+    if 20 <= age <= 29:
+        ages.append(age)
     else:
         break
 
-if cnt > 0:
-    avg = sum_val / cnt
-    print(f"{avg:.2f}")
+# 나이들의 평균 계산
+average_age = sum(ages) / len(ages)
+
+# 소수점 둘째 자리까지 반올림하여 출력
+print(f"{average_age:.2f}")
