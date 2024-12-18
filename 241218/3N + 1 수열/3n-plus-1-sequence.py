@@ -2,6 +2,9 @@ N = int(input())
 cnt = 0
 
 while True:
+    if N == 1:
+        break
+
     if N % 2 == 0:
         N = N // 2
     else:
@@ -9,7 +12,6 @@ while True:
     
     cnt += 1
     
-    if N == 1:
-        break
+ 
 
 print(cnt)
